@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1047px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.henry img{
+    width: 100%;
+    border: 1px solid grey;
+    
+}
+
+.karl img{
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.autok img{
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 2px;
+    padding: 4px;
+    
+}
+
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3, auto) 1fr;
+    gap: 10px;
+    border: 1px solid #009973;
+  
+}
+
+/*.menu a
+{background-color:dodgerblue;
+    padding: 20px;
+    margin: 20px;
+}*/
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+h1{
+    font-size: 35px;
+    color: #009973;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    background-color: #009973;
+}
+
+nav{
+    background-color: #009973;
+    padding: 10px;
+}
+
+.nev{
+    text-align: center;
+    color: #009973;
+}
+
+.henry, .karl, .autok{
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 3px 10px;
+}
+
+
+.nevek{
+    padding: 10px;
+    color: #009973;
+    background-color:#F8F8F8;
+
+}
